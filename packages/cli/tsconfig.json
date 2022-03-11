@@ -1,0 +1,16 @@
+{
+	"extends": "../tsconfig.settings.json",
+	"compilerOptions": {
+		"rootDir": "src",
+		"outDir": "dist",
+		"jsx": "react-jsx",
+		"skipLibCheck": true
+	},
+	"references": [
+		{"path": "../core"},
+		{"path": "../bundler"},
+		{"path": "../renderer"},
+		{"path": "../player"},
+		{"path": "../media-utils"}
+	]
+}
